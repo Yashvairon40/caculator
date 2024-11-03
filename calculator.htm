@@ -38,7 +38,7 @@
             border-width:0;
             font-weight:bold;
             font-size:15px;
-            background-color: rgb(3, 38, 150);
+            background-color: rgb(43, 86, 244);
             color:rgb(255, 255, 255);
 
 
@@ -47,12 +47,64 @@
 
             cursor:pointer;
         }
+        #result{
+            height:120px;
+
+
+        }
+        #history{
+            text-align:right;
+            height:20px;
+            margin:0 20px;
+            font-size:15px;
+            color:azure;
+            padding-top:20px;
+        }
+        #output{
+            text-align:right;
+            height:60px;
+            margin:10px 20px;
+            font-size:30px;
+
+        }
+        button:nth-child(4){
+            background-color:rgb(72, 131, 14);
+            font-size:20px;
+        }
+        button:nth-child(8){
+            background-color:rgb(29, 149, 149);
+            font-size:20px;
+        }
+        button:nth-child(12){
+            background-color:rgb(225, 27, 27);
+            font-size:20px;
+        }
+        button:nth-child(16){
+            background-color:rgb(236, 72, 8);
+            font-size:20px;
+        }
+        button:nth-child(20){
+            background-color: rgb(189, 29, 195);
+            font-size:20px;
+        }
 
     </style>
 </head>
 <body>
     <div id="container">
         <div id="calculator">
+            <div id="result">
+                <div id="history">
+                    <p id="history-value">
+
+                    </p>
+                </div>
+                <div id="output">
+                    <p id="output-value">
+
+                    </p>
+                </div>
+            </div>
             <div id="keyboard">
                 <button class="operator" id="clear">C</button>
                 <button class="operator" id="backspace">CE</button>
